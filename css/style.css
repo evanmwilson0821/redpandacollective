@@ -870,20 +870,32 @@ header {
     color: #BF0436;
 }
 
+.service:hover p {
+    color: #fff;
+}
+
+.service:hover i {
+    color: #BF0436;
+}
+
 /*------------------------------------*\
 	Why choose us
 \*------------------------------------*/
 
-.feature {
-    margin: 15px 0px;
+.why-thought-leadership:hover h4 {
+  color:#BF0436;
 }
-.feature i {
-    float: left;
-    padding: 5px;
-    border-radius: 50%;
-    color: #BF0436;
-    border: 1px solid #BF0436;
-    margin-right: 5px;
+
+.why-thought-leadership i {
+  padding-left: 1rem;
+}
+
+.why-thought-leadership a:focus {
+  color:#BF0436;
+}
+
+.why-thought-leadership .card-body {
+  margin-bottom: 3rem;
 }
 
 /*------------------------------------*\
@@ -1086,7 +1098,7 @@ header {
 
 .team-img>img {
   width: 100%;
-  height:50rem;
+  height:auto;
 }
 
 .team .overlay {
