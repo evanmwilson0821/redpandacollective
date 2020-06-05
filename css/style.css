@@ -3,7 +3,7 @@ Theme Name:
 Author: yaminncco
 
 Colors:
-	Body (grey) 		  : #868F9B
+	Body (grey) 		  : #3B3F45
 	Headers (black) 	: #10161A
 	Primary (red) 	: #BF0436
 	White      : #FCFCFF
@@ -49,7 +49,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
-    color: #868F9B;
+    color: #3B3F45;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -678,6 +678,10 @@ header {
     color: #fff;
 }
 
+.about:hover p {
+  color: #fff;
+}
+
 
 /*------------------------------------*\
 	Portfolio
@@ -823,6 +827,14 @@ header {
     opacity: 1;
 }
 
+.work:hover .work-hover p {
+  color: #000;
+}
+
+.work:hover .work-hover ul {
+  color: #000;
+}
+
 
 /*------------------------------------*\
 	Services
@@ -867,7 +879,7 @@ header {
 }
 
 .service:hover h3 {
-    color: #BF0436;
+    color: #fff;
 }
 
 .service:hover p {
@@ -896,6 +908,11 @@ header {
 
 .why-thought-leadership .card-body {
   margin-bottom: 3rem;
+  padding-left: 1rem;
+}
+
+.why-thought-leadership .card-body h3 {
+  font-size: 1.75rem;
 }
 
 /*------------------------------------*\
