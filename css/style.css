@@ -831,6 +831,10 @@ header {
   color: #000;
 }
 
+.work:hover .work-hover h3 {
+  color: #000;
+}
+
 .work:hover .work-hover ul {
   color: #000;
 }
