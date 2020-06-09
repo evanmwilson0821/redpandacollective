@@ -597,7 +597,6 @@ header {
 }
 .home-content button {
   margin-top: 30px;
-  scroll-behavior: smooth;
 }
 
 .header-wrapper h2 {
@@ -627,6 +626,20 @@ header {
   border-radius: 3px;
 }
 
+.home-content .home-btn::after {
+  color: #fff;
+}
+
+.home-content .home-btn-white {
+  display: inline-block;
+  padding: 10px 35px;
+  margin: 3.0rem;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
 
 /*------------------------------------*\
 	About
@@ -839,6 +852,10 @@ header {
   color: #000;
 }
 
+.work-card {
+  height: 43rem;
+}
+
 
 /*------------------------------------*\
 	Services
@@ -877,6 +894,10 @@ header {
     width: 100%;
 }
 
+.service p {
+  padding-bottom: 5rem;
+}
+
 .service h3 {
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
@@ -908,6 +929,11 @@ header {
 
 .why-thought-leadership a:focus {
   color:#BF0436;
+  text-decoration: underline;
+}
+
+.why-thought-leadership a:hover {
+  text-decoration: underline;
 }
 
 .why-thought-leadership .card-body {
