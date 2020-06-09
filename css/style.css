@@ -705,10 +705,6 @@ header {
     padding: 20px;
 }
 
-.work-card {
-  height: 50rem;
-}
-
 .work .section-header {
     position: relative;
     margin-bottom: 0rem;
@@ -904,11 +900,11 @@ header {
 }
 
 .service:hover h3 {
-    color: #fff;
+    color: #BF0436;
 }
 
 .service:hover p {
-    color: #fff;
+    color: #10161A;
 }
 
 .service:hover i {
