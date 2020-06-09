@@ -1066,6 +1066,8 @@ header {
 
 .testimonial {
     margin: 15px 0px;
+    margin-bottom: 7rem;
+    maring-top: 3rem;
 }
 
 .testimonial-meta {
