@@ -896,11 +896,11 @@ header {
 }
 
 .service:hover h3 {
-    color: #BF0436;
+    color: #fff;
 }
 
 .service:hover p {
-    color: #10161A;
+    color: #fff;
 }
 
 .service:hover i {
